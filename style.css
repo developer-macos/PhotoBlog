@@ -12,6 +12,7 @@ width: 906px;
 margin: 0 auto;
 border: dotted 2px red ;
 margin-top: 92px;
+list-style: none;
 }
 
 .button{
