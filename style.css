@@ -10,10 +10,9 @@
 }
 
 .container{
-width: 906px;
+max-width: 906px;
 margin: 0 auto;
 list-style: none;
-width: 906px;
 margin: 0 auto;
 border: dotted 2px red ;
 }
@@ -35,5 +34,8 @@ list-style: none;
 }
 
 .button{
-    margin-top: 94px
+    margin-top: 94px;
+    background-color: none;
+    width: 165px;
+    height: 60px;
 }
