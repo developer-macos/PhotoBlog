@@ -1,3 +1,14 @@
+:root{
+    --color-for-lifestyle: #03A9F4;
+    --color: #7D7D7D;
+    --color-oo: #B4AD9E;
+    --color-o: #626262;
+}
+
+.lifestyle{
+    color: var(--color-for-lifestyle);
+}
+
 .container{
 width: 906px;
 margin: 0 auto;
@@ -5,6 +16,14 @@ list-style: none;
 width: 906px;
 margin: 0 auto;
 border: dotted 2px red ;
+}
+
+.others{
+    color: var(--color);
+}
+
+.container a{
+    text-decoration: none;
 }
 
 .ul-header{
