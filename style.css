@@ -19,6 +19,10 @@ border: dotted 2px red ;
 
 .others{
     color: var(--color);
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
 }
 
 .container a{
@@ -38,4 +42,28 @@ list-style: none;
     background-color: none;
     width: 165px;
     height: 60px;
+    margin-bottom: 66px;
+    margin-left: 357px;
+}
+
+.flex-list{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    padding-left: 0px;
+}
+
+.box-1{
+    width: 426px;
+    flex-direction: row;
+}
+
+.playfair-font{
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #626262;
+  font-size: 14px;
 }
